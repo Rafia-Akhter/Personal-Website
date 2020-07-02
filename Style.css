@@ -1,0 +1,55 @@
+body{
+    font-family:"Poppins-ExtraBold.ttf" ;}
+.name-highlight{
+    color: crimson;
+}
+.half-width{
+    width: 50%;
+    float: right;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    
+    background-image: url("C:\Users\HP\Dropbox\images/header-bg.png");
+    background-repeat: none;
+}
+section{
+    width: 500px;
+    padding-bottom: 150px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-color:crimson;
+    padding: 10px 20px;
+    border-radius: 5px;
+   color: white;
+}
+p{
+    color: dimgray;
+}
+.biography-area{
+    background-repeat: none;
+    background-image:("C:\Users\HP\Dropbox\images/biography-bg.png");
+    background-position: right ;
+}
+* {
+    box-sizing: border-box;
+}
+/*Clearfix(clear floats)*/
+.row ::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.column{
+    float: left;   
+    width: 33.33%;
+    padding: 5px;
+    margin: 2px;
+}
